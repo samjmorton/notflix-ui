@@ -24,11 +24,9 @@ Be sure to add a reference to your new component to `./src/index.tsx`.
 
 ## Commands
 
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-
 - _npm run dev_
   - Builds project and watches for file chages for local development
 - _npm run build_
   - Build files for deployment
+- _npm run start_
+  - Nextjs start command
