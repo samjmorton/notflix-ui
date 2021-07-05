@@ -1,0 +1,67 @@
+.profileSelectionContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 250px;
+
+  .title {
+    color: #fff;
+    font-size: 3.5vw;
+  }
+
+  .manage {
+    display: block;
+    margin: 2em 0 1em 0;
+    font-size: 1.2vw;
+    border: 1px solid grey;
+    color: grey;
+    text-transform: uppercase;
+    padding: 0.5em 1.5em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: transparent;
+
+    &:hover {
+      color: white;
+      border: 1px solid white;
+    }
+  }
+
+  .profileContainer {
+    display: flex;
+
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        cursor: pointer;
+        .icon {
+          outline: 3px solid white;
+        }
+        .name {
+          color: white;
+        }
+      }
+
+      .icon {
+        height: 10vw;
+        width: 10vw;
+        max-height: 200px;
+        max-width: 200px;
+        min-height: 84px;
+        min-width: 84px;
+        position: relative;
+      }
+    }
+
+    .name {
+      font-size: 1.3vw;
+      color: gray;
+    }
+  }
+}
