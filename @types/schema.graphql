@@ -1,0 +1,14 @@
+type Query {
+  properties: [Property]
+  propertyById(id: ID): Property
+  rates: [Rate]
+  ratesByRatePlanCode(ratePlanCode: String): Rate
+  reviews: [Review]
+  reviewsByPropertyCode(propertyCode: String): [Review]
+  user: User
+}
+
+type User {
+  name: String
+  profile: String
+}

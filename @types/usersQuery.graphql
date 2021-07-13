@@ -1,0 +1,10 @@
+query ($userName: String!) {
+  profile(userName: $userName) {
+    name
+    email
+    accounts {
+      profileImage
+      name
+    }
+  }
+}
