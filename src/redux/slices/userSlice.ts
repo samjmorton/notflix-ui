@@ -39,6 +39,7 @@ export const userSlice = createSlice({
 		setUserError: (state, action: PayloadAction<string>) => {
 			state.status = "LOGINN_ERROR" + action.payload
 		}
+
   }
 })
 

@@ -3,7 +3,7 @@ import {
 	setUserInProgress,
 	setUserError,
 } from '../slices/userSlice';
-import QUERY_USER from '../../../@types/usersQuery.graphql';
+import QUERY_USER from '../../../@types/usersQuery.gql';
 import {GraphQLClient} from '@apolloClient'
 import { Dispatch } from 'redux'
 

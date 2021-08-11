@@ -14,15 +14,18 @@ body {
 }
 
 a {
-  color: #0070f3;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
 
 img {
   max-width: 100%;
   display: block;
+}
+
+svg {
+	color: white;
+	position: absolute;
+	font-size: 28px !important;
+	font-weight: 200!important;
 }

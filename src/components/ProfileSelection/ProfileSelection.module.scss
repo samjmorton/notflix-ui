@@ -1,15 +1,8 @@
 .profileSelectionContainer {
   display: flex;
   flex-direction: column;
-  height: 100%;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 250px;
-
-  .title {
-    color: #fff;
-    font-size: 3.5vw;
-  }
 
   .manage {
     display: block;
@@ -41,16 +34,7 @@
       align-items: center;
       justify-content: center;
       margin: 8px;
-
-      &:hover {
-        cursor: pointer;
-        .icon {
-          outline: 3px solid white;
-        }
-        .name {
-          color: white;
-        }
-      }
+      border-radius: 4px;
 
       .icon {
         height: 10vw;
@@ -60,6 +44,35 @@
         min-height: 84px;
         min-width: 84px;
         position: relative;
+
+        img {
+          border: 2px solid transparent !important;
+          border-radius: 4px;
+        }
+      }
+
+      .manageIcon {
+        img {
+          opacity: .5;
+        }
+      }
+
+      .editIconWrapper {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &:hover {
+        cursor: pointer;
+        img {
+          border: 2px solid white !important;
+        }
+        .name {
+          color: white;
+        }
       }
     }
 
